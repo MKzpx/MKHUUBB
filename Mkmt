@@ -1,0 +1,124 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MK Hub</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+            button {
+                background-color: red;
+                color: white;
+                border: none;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 10px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            button:hover {
+                background-color: darkred;
+            }
+            .method-info {
+                display: none;
+                max-width: 600px;
+                text-align: left;
+                padding: 20px;
+                background-color: #333;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
+            .method-info h3 {
+                color: red;
+            }
+            .method-info p {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>MK Hub</h1>
+        <button onclick="location.href='https://www.mediafire.com/file/relzfnn1yihk75q/Me%CC%81todo+game+pass.docx/file?dkey=3v5bcytylut&r=1063'">
+            Método game Pass
+        </button>
+        <button onclick="location.href='https://www.mediafire.com/file/c4pltlck3g16pq0/Burlador_Nubank2023.apk/file?dkey=p9qzij0xr6z&r=188'">
+            Burlador Nubank
+        </button>
+        <button onclick="showMethodInfo('method-gift-card')">Método Gift Card</button>
+        <button onclick="showMethodInfo('method-robux')">Método Robux</button>
+        <button onclick="showMethodInfo('method-lara-nubank')">Método Lara Nubank</button>
+        
+        <div id="method-gift-card" class="method-info">
+            <h3>MÉTODO GIFT CARD</h3>
+            <ol>
+                <li>Arrume ou crie um login no Portal dos Créditos</li>
+                <li>Arrume uma CC Full e os dados necessários</li>
+                <li>Entre no <a href="https://www.portaldoscreditos.com.br/loja/gift-card-favorito/google-play-gift-card-us" target="_blank">Portal dos Créditos - Google Play Gift Card (US)</a></li>
+                <li>Coloque seu login</li>
+                <li>Coloque os dados e a CC</li>
+                <li>O e-mail deve ser real. Se desejar um gift card físico, insira seu endereço completo</li>
+            </ol>
+            <p>Compre Google Play Gift Card Americano com segurança e rapidez, receba por e-mail, pague com PIX, Boleto, Cartão de Crédito ou Transferência.</p>
+        </div>
+        
+        <div id="method-robux" class="method-info">
+            <h3>MÉTODO ROBUX</h3>
+            <p>Requisitos do MÉTODO ROBUX:</p>
+            <ul>
+                <li>Dispositivo Apple ou Android</li>
+                <li>Itunes ou dinheiro do Google Play (o suficiente para comprar qualquer quantia de Robux)</li>
+            </ul>
+            <ol>
+                <li>Compre o Robux no seu dispositivo</li>
+                <li>Gaste-os antes de realizar a próxima etapa</li>
+                <li>Vá para <a href="https://www.reportaproblem.apple.com/" target="_blank">https://www.reportaproblem.apple.com/</a> (ou informe no Google Play)</li>
+                <li>Faça login em sua conta</li>
+                <li>Clique na barra e deslize em "Solicitar um reembolso"</li>
+                <li>Coloque este motivo específico (ou similar): "Eu preciso de um reembolso porque meu filho de 5 anos estava jogando Roblox e ele fez essa compra por engano."</li>
+                <li>Conclua o relatório</li>
+                <li>Espero de 6 a 48 horas e você receberá seu dinheiro de volta.</li>
+                <li>Observe como o que você comprou ainda está funcionando, eles não irão excluí-lo.</li>
+                <li>Repita e você terá inf Robux</li>
+            </ol>
+            <p>Notas: não exagere, uma ou duas vezes por semana com quantidades diferentes. Usar VPNs diferentes é ainda melhor.</p>
+        </div>
+        
+        <div id="method-lara-nubank" class="method-info">
+            <h3>MÉTODO LARA NUBANK</h3>
+            <p>Trampo da NuBank:</p>
+            <ol>
+                <li>Pegue um kit bico da sua cidade ou estado.</li>
+                <li>Limpe o celular no modo avião e reinicie no modo avião. Quando ligar, use apenas 4G.</li>
+                <li>Como sempre, pegue um chip, cadastre no CPF do bico e faça plano em qualquer operadora.</li>
+                <li>Abra um email na Globo, Yahoo ou Outlook no nome do bico (mais chances de aprovar limite alto se tiver email Globo).</li>
+                <li>Fez isso tudo? Partiu para cima, baixe o Nubank burlado que vou deixar abaixo. Certifique-se de não ter o app original instalado (pode dar erro).</li>
+                <li>Comece o cadastro normalmente com o chip e email que você criou.</li>
+                <li>Na hora da selfie e documentos, use apenas o burlador e marche.</li>
+                <li>Se aprovar, será em até 1 dia. Se não aprovar em 1 dia, só lamento.</li>
+            </ol>
+            <p>BURLADOR: <a href="https://www.mediafire.com/file/g6atfwwhy44rqgg/nubank_%2540snow_do7.apk/file" target="_blank">Nubank Burlado</a></p>
+        </div>
+        
+        <script>
+            function showMethodInfo(methodId) {
+                var methodInfo = document.getElementById(methodId);
+                methodInfo.style.display = 'block';
+            }
+        </script>
+    </body>
+    </html>
+    
